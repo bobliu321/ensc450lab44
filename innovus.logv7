@@ -1,0 +1,149 @@
+[03/31 20:10:31      0s] 
+[03/31 20:10:31      0s] Cadence Innovus(TM) Implementation System.
+[03/31 20:10:31      0s] Copyright 2018 Cadence Design Systems, Inc. All rights reserved worldwide.
+[03/31 20:10:31      0s] 
+[03/31 20:10:31      0s] Version:	v18.10-p002_1, built Tue May 29 19:19:55 PDT 2018
+[03/31 20:10:31      0s] Options:	
+[03/31 20:10:31      0s] Date:		Wed Mar 31 20:10:31 2021
+[03/31 20:10:31      0s] Host:		ensc-esil-01 (x86_64 w/Linux 3.10.0-1127.el7.x86_64) (4cores*8cpus*Intel(R) Core(TM) i7-4770S CPU @ 3.10GHz 8192KB)
+[03/31 20:10:31      0s] OS:		CentOS Linux release 7.8.2003 (Core)
+[03/31 20:10:31      0s] 
+[03/31 20:10:31      0s] License:
+[03/31 20:10:32      0s] 		invs	Innovus Implementation System	18.1	checkout succeeded
+[03/31 20:10:32      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[03/31 20:10:34      0s] **ERROR: (IMPOAX-142):	Could not open shared library libinnovusoax22.so : /Lnx_STC/tools/cadence/INNOVUS18.10.000_lnx86/tools.lnx86/lib/64bit/libddbase_sh.so: undefined symbol: _ZTIN12OpenAccess_419oaVersionedObserverINS_12oaLibDefListELj1EEE
+
+**ERROR: (IMPOAX-142):	Could not open shared library libcdsSkillPcell.so : /Lnx_STC/tools/cadence/INNOVUS18.10.000_lnx86/tools.lnx86/lib/64bit/libcdsSkillPcell.so: undefined symbol: _ZTIN12OpenAccess_413oaFSComponentE
+
+**ERROR: (IMPOAX-142):	OA features will be disabled in this session.
+
+@(#)CDS: Innovus v18.10-p002_1 (64bit) 05/29/2018 19:19 (Linux 2.6.18-194.el5)
+[03/31 20:10:48      9s] @(#)CDS: NanoRoute 18.10-p002_1 NR180522-1057/18_10-UB (database version 2.30, 418.7.1) {superthreading v1.46}
+[03/31 20:10:48      9s] @(#)CDS: AAE 18.10-p004 (64bit) 05/29/2018 (Linux 2.6.18-194.el5)
+[03/31 20:10:48      9s] @(#)CDS: CTE 18.10-p003_1 () May 15 2018 10:23:07 ( )
+[03/31 20:10:48      9s] @(#)CDS: SYNTECH 18.10-a012_1 () Apr 19 2018 01:27:21 ( )
+[03/31 20:10:48      9s] @(#)CDS: CPE v18.10-p005
+[03/31 20:10:48      9s] @(#)CDS: IQRC/TQRC 18.1.1-s118 (64bit) Fri Mar 23 17:23:45 PDT 2018 (Linux 2.6.18-194.el5)
+[03/31 20:10:48      9s] @(#)CDS: OA 22.50-p083 Tue Jan  2 17:02:41 2018
+[03/31 20:10:48      9s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[03/31 20:10:48      9s] @(#)CDS: RCDB 11.13
+[03/31 20:10:48      9s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_4075_ensc-esil-01_escmc27_TORx73.
+
+[03/31 20:10:48      9s] Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+[03/31 20:10:50     10s] 
+[03/31 20:10:50     10s] **INFO:  MMMC transition support version v31-84 
+[03/31 20:10:50     10s] 
+[03/31 20:10:50     10s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[03/31 20:10:50     10s] <CMD> suppressMessage ENCEXT-2799
+[03/31 20:10:50     10s] <CMD> win
+[03/31 20:11:02     10s] <CMD> set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+[03/31 20:11:02     10s] <CMD> set conf_qxconf_file NULL
+[03/31 20:11:02     10s] <CMD> set conf_qxlib_file NULL
+[03/31 20:11:02     10s] <CMD> set defHierChar /
+[03/31 20:11:02     10s] <CMD> set distributed_client_message_echo 1
+[03/31 20:11:02     10s] <CMD> set distributed_mmmc_disable_reports_auto_redirection 0
+[03/31 20:11:02     10s] <CMD> set enc_enable_print_mode_command_reset_options 1
+[03/31 20:11:02     10s] <CMD> set init_gnd_net VSS
+[03/31 20:11:02     10s] <CMD> set init_lef_file /CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/lef/NangateOpenCellLibrary.lef
+[03/31 20:11:02     10s] <CMD> set init_mmmc_file Default.view
+[03/31 20:11:02     10s] <CMD> set init_pwr_net VDD
+[03/31 20:11:02     10s] <CMD> set init_top_cell aes128key
+[03/31 20:11:02     10s] <CMD> set init_verilog inputs/aes128key.ref.v
+[03/31 20:11:02     10s] <CMD> set latch_time_borrow_mode max_borrow
+[03/31 20:11:02     10s] <CMD> set pegDefaultResScaleFactor 1
+[03/31 20:11:02     10s] <CMD> set pegDetailResScaleFactor 1
+[03/31 20:11:02     10s] <CMD> set report_inactive_arcs_format {from to when arc_type sense reason}
+[03/31 20:11:02     10s] <CMD> set soft_stack_size_limit 31
+[03/31 20:11:02     10s] **WARN: (IMPUDM-33):	Global variable "timing_enable_default_delay_arc" is obsolete and will be removed in a future release. The obsolete variable still works in this release, but to avoid this warning and to ensure compatibility with future releases, remove the obsolete variable from your script.
+[03/31 20:11:02     10s] <CMD> suppressMessage -silent GLOBAL-100
+[03/31 20:11:02     10s] <CMD> unsuppressMessage -silent GLOBAL-100
+[03/31 20:11:02     10s] **WARN: (IMPUDM-33):	Global variable "timing_enable_default_delay_arc" is obsolete and will be removed in a future release. The obsolete variable still works in this release, but to avoid this warning and to ensure compatibility with future releases, remove the obsolete variable from your script.
+[03/31 20:11:02     10s] <CMD> suppressMessage -silent GLOBAL-100
+[03/31 20:11:02     10s] <CMD> unsuppressMessage -silent GLOBAL-100
+[03/31 20:11:02     10s] <CMD> set timing_enable_default_delay_arc 1
+[03/31 20:11:03     10s] <CMD> init_design
+[03/31 20:11:03     10s] **ERROR: (IMPOAX-820):	The OA features are disabled in the current session of Innovus because the oax shared library could not be loaded properly. This could be because your installation was not properly configured. To enable OA features, exit the current session and re-launch Innovus either after fixing your installation by running the Configure Installation phase, or after setting the OA_HOME variable to point to a proper OA installation. Check the "OpenAccess Installation and Configuration Guide" manual for more information.
+
+**ERROR: (IMPOAX-850):	oaxCreateCdsLibArray command cannot be run as OA features are disabled in this session.
+#% Begin Load MMMC data ... (date=03/31 20:11:03, mem=421.5M)
+[03/31 20:11:03     10s] #% End Load MMMC data ... (date=03/31 20:11:03, total cpu=0:00:00.0, real=0:00:00.0, peak res=421.6M, current mem=421.6M)
+[03/31 20:11:03     10s] 
+[03/31 20:11:03     10s] Loading LEF file /CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Back_End/lef/NangateOpenCellLibrary.lef ...
+[03/31 20:11:03     10s] Set DBUPerIGU to M2 pitch 380.
+[03/31 20:11:03     10s] 
+[03/31 20:11:03     10s] viaInitial starts at Wed Mar 31 20:11:03 2021
+viaInitial ends at Wed Mar 31 20:11:03 2021
+Loading view definition file from Default.view
+[03/31 20:11:03     10s] Reading nangate45nm_ls timing library '/ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib' ...
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X1' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X2' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND2_X4' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X1' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X2' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND3_X4' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X1' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X2' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AND4_X4' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X1' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X2' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI21_X4' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X1' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X2' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI22_X4' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X1' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X2' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI211_X4' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X1' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] **WARN: (TECHLIB-436):	Attribute 'max_fanout' on 'output/inout' pin 'ZN' of cell 'AOI221_X2' is not defined in the library. (File /ensc/CMC/setups/ensc450/SOCLAB/LIBRARIES/NangateOpenCellLibrary_PDKv1_3_v2010_12/Front_End/Liberty/NLDM/NangateOpenCellLibrary_slow.lib)
+[03/31 20:11:03     10s] Message <TECHLIB-436> has exceeded the message display limit of '20'. Use 'set_message -no_limit -id list_of_msgIDs' to reset the message limit.
+[03/31 20:11:04     10s] Read 134 cells in library 'NangateOpenCellLibrary' 
+[03/31 20:11:04     10s] *** End library_loading (cpu=0.00min, real=0.02min, mem=13.5M, fe_cpu=0.18min, fe_real=0.55min, fe_mem=605.3M) ***
+[03/31 20:11:04     11s] #% Begin Load netlist data ... (date=03/31 20:11:04, mem=434.0M)
+[03/31 20:11:04     11s] *** Begin netlist parsing (mem=605.3M) ***
+[03/31 20:11:04     11s] Created 134 new cells from 1 timing libraries.
+[03/31 20:11:04     11s] Reading netlist ...
+[03/31 20:11:04     11s] Backslashed names will retain backslash and a trailing blank character.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **ERROR: (IMPVL-209):	In Verilog file 'inputs/aes128key.ref.v', check line 1 near the text # for the issue: 'syntax error'.  Update the text accordingly.
+Type 'man IMPVL-209' for more detail.
+[03/31 20:11:04     11s] **WARN: (EMS-27):	Message (IMPVL-209) has exceeded the current message display limit of 20.
+[03/31 20:11:04     11s] To increase the message display limit, refer to the product command reference manual.
+[03/31 20:11:04     11s] **FATAL ERROR: [/vols/cm_t1nb_008/INNOVUS181/Rel/18.10/main/lnx86_64_opt/18.10-p002_1/fe/src/vl/vlVerilogMTLex.l:1046:vlVerilogMT_yyerror]: Too many errors in verilog file inputs/aes128key.ref.v ... aborting
+[03/31 20:11:04     11s] Exiting due to previous fatal error.
